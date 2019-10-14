@@ -6,7 +6,9 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-poliastro = "~=0.13.0"
+poliastro = {extras = ["cesium"],version = "~=0.13.0"}
+jupyterlab = "*"
+orbit-predictor = "*"
 
 [requires]
 python_version = "3.7"
