@@ -1,8 +1,12 @@
-# tutorial
+# Interplanetary Mission Design with poliastro
 
-Long tutorial on Interplanetary Mission Design with poliastro.
+## Remote/cloud usage
 
-## Installation
+Binder will create a cloud environment with all the dependencies just for you!
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/poliastro/tutorial/master)
+
+## Local installation
 
 ```
 $ pipenv install
