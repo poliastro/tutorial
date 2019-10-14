@@ -9,6 +9,7 @@ verify_ssl = true
 poliastro = {extras = ["cesium"],version = "~=0.13.0"}
 jupyterlab = "*"
 orbit-predictor = "*"
+rise = "*"
 
 [requires]
 python_version = "3.7"
