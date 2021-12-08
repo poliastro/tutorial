@@ -9,5 +9,11 @@ Binder will create a cloud environment with all the dependencies just for you!
 ## Local installation
 
 ```
-$ pipenv install
+(.venv) $ pip install pip-tools && pip-sync
+```
+
+or, alternatively,
+
+```
+(.venv) $ pip install -r requirements.txt
 ```
