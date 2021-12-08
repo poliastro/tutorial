@@ -1,4 +1,4 @@
-# Interplanetary Mission Design with poliastro
+# Practical Mission Analysis with Python using poliastro
 
 ## Remote/cloud usage
 
