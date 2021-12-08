@@ -1,4 +1,4 @@
-poliastro~=0.13.0
+poliastro~=0.16.0
 jupyterlab
 orbit-predictor
 rise
