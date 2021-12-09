@@ -5,7 +5,9 @@
 #    pip-compile
 #
 anyio==3.4.0
-    # via jupyter-server
+    # via
+    #   httpcore
+    #   jupyter-server
 argon2-cffi==21.1.0
     # via
     #   jupyter-server
@@ -28,13 +30,18 @@ beautifulsoup4==4.10.0
 bleach==4.1.0
     # via nbconvert
 certifi==2021.10.8
-    # via requests
+    # via
+    #   httpcore
+    #   httpx
+    #   requests
 cffi==1.15.0
     # via
     #   argon2-cffi
     #   cryptography
 charset-normalizer==2.0.9
-    # via requests
+    # via
+    #   httpx
+    #   requests
 cryptography==36.0.0
     # via secretstorage
 cycler==0.11.0
@@ -52,12 +59,19 @@ entrypoints==0.3
     #   nbconvert
 fonttools==4.28.3
     # via matplotlib
+h11==0.12.0
+    # via httpcore
 html5lib==1.1
     # via astroquery
+httpcore==0.14.3
+    # via httpx
+httpx==0.21.1
+    # via -r requirements.in
 idna==3.3
     # via
     #   anyio
     #   requests
+    #   rfc3986
 importlib-metadata==4.8.2
     # via keyring
 ipykernel==6.6.0
@@ -246,6 +260,8 @@ requests==2.26.0
     #   jupyterlab-server
     #   orbit-predictor
     #   pyvo
+rfc3986[idna2008]==1.5.0
+    # via httpx
 rise==5.7.1
     # via -r requirements.in
 scipy==1.7.3
@@ -267,7 +283,10 @@ six==1.16.0
     #   plotly
     #   python-dateutil
 sniffio==1.2.0
-    # via anyio
+    # via
+    #   anyio
+    #   httpcore
+    #   httpx
 soupsieve==2.3.1
     # via beautifulsoup4
 tenacity==8.0.1

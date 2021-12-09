@@ -1,4 +1,5 @@
-poliastro~=0.16.0
+httpx
 jupyterlab
 orbit-predictor
+poliastro~=0.16.0
 rise
