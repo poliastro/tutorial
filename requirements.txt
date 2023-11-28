@@ -42,7 +42,7 @@ charset-normalizer==2.0.9
     # via
     #   httpx
     #   requests
-cryptography==36.0.0
+cryptography==41.0.6
     # via secretstorage
 cycler==0.11.0
     # via matplotlib
@@ -261,7 +261,9 @@ requests==2.26.0
     #   orbit-predictor
     #   pyvo
 rfc3986[idna2008]==1.5.0
-    # via httpx
+    # via
+    #   httpx
+    #   rfc3986
 rise==5.7.1
     # via -r requirements.in
 scipy==1.7.3
