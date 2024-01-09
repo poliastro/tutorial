@@ -57,7 +57,7 @@ entrypoints==0.3
     #   jupyter-client
     #   jupyterlab-server
     #   nbconvert
-fonttools==4.28.3
+fonttools==4.43.0
     # via matplotlib
 h11==0.12.0
     # via httpcore
@@ -261,7 +261,9 @@ requests==2.26.0
     #   orbit-predictor
     #   pyvo
 rfc3986[idna2008]==1.5.0
-    # via httpx
+    # via
+    #   httpx
+    #   rfc3986
 rise==5.7.1
     # via -r requirements.in
 scipy==1.7.3
