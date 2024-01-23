@@ -205,7 +205,7 @@ pexpect==4.8.0
     # via ipython
 pickleshare==0.7.5
     # via ipython
-pillow==8.4.0
+pillow==10.2.0
     # via matplotlib
 plotly==5.4.0
     # via poliastro
@@ -261,7 +261,9 @@ requests==2.26.0
     #   orbit-predictor
     #   pyvo
 rfc3986[idna2008]==1.5.0
-    # via httpx
+    # via
+    #   httpx
+    #   rfc3986
 rise==5.7.1
     # via -r requirements.in
 scipy==1.7.3
